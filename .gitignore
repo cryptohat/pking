@@ -1,0 +1,71 @@
+# =========================================================================
+# Python Microservices Configuration
+# =========================================================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments & Packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.env
+.venv
+env/
+venv/
+
+# Testing & Type Checkers
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# =========================================================================
+# Java Microservices Configuration
+# =========================================================================
+# Compiled class files
+*.class
+
+# Log files & VM Crash dumps
+*.log
+hs_err_pid*
+replay_pid*
+
+# Build Systems (Maven & Gradle)
+target/
+.gradle/
+build/
+!**/src/**/build/
+bin/
+
+# Keep the Gradle / Maven wrappers tracked but ignore local properties
+.mvn/
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+
+# =========================================================================
+# IDEs, Editors, & OS Files (Shared)
+# =========================================================================
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+
+
